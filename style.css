@@ -712,6 +712,10 @@ h2 {
     line-height: 1.4em;
 }
 
+.citation{
+    font-style: italic;
+}
+
 h3 {
     font-size: 15px;
     text-transform: uppercase;
