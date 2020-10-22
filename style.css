@@ -804,6 +804,9 @@ h4 {
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
 }
 
 .avatar {
@@ -1085,7 +1088,20 @@ h4 {
         width: 180px;
         height: 320px;
     }
-}
+    .portfolio-row {
+        margin:0;
+        display:block;
+        text-align: center;
+    }
+    
+    .col-sm-6{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    
+    .col-sm-6 img{
+        margin: auto;
+    }
 
 @media (max-width: 400px) {
     .bloc {
