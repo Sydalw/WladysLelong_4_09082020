@@ -213,11 +213,11 @@ nav ul li a:hover:after {
 }
 
 .d-bloc .panel {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, .8);
 }
 
 .d-bloc .panel button:hover {
-    color: rgba(0, 0, 0, .7);
+    color: rgba(0, 0, 0, 1);
 }
 
 .d-bloc .panel icon {
@@ -244,12 +244,12 @@ nav ul li a:hover:after {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, .8);
 }
 
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
-    color: rgba(0, 0, 0, .7);
+    color: rgba(0, 0, 0, 1);
 }
 
 .l-bloc .icon-round,
@@ -692,7 +692,7 @@ a[data-lightbox]:hover img {
 
 .snapshot-lb .lightbox-caption {
     padding: 0;
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, .8);
     background: none;
     text-align: center;
 }
@@ -753,8 +753,8 @@ p {
     color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: 16px;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: bolder;
 }
 
 .social {
@@ -775,7 +775,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: #222222!important;
 }
 
 .med-width-whitespace {
@@ -848,11 +848,13 @@ h4 {
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;
+    font-weight: bolder;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
     color: #FFFFFF!important;
+    font-weight: bolder;
 }
 
 .ltc-white {
